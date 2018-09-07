@@ -64,10 +64,10 @@
 <packages>
 <package name="FRONT-FACE">
 <description>Front Face Top</description>
-<wire x1="-9" y1="-8" x2="9" y2="-8" width="0.2032" layer="21"/>
-<wire x1="9" y1="-8" x2="9" y2="12" width="0.2032" layer="21"/>
-<wire x1="9" y1="12" x2="-9" y2="12" width="0.2032" layer="21"/>
-<wire x1="-9" y1="12" x2="-9" y2="-8" width="0.2032" layer="21"/>
+<wire x1="-9" y1="-8" x2="9" y2="-8" width="0.2032" layer="51"/>
+<wire x1="9" y1="-8" x2="9" y2="12" width="0.2032" layer="51"/>
+<wire x1="9" y1="12" x2="-9" y2="12" width="0.2032" layer="51"/>
+<wire x1="-9" y1="12" x2="-9" y2="-8" width="0.2032" layer="51"/>
 <text x="-4.445" y="2.3" size="1.016" layer="27">&gt;VALUE</text>
 <smd name="1" x="-8.8925" y="4.9" dx="1.485" dy="0.9" layer="1" cream="no"/>
 <smd name="2" x="-8.8925" y="3.4" dx="1.485" dy="0.9" layer="1" cream="no"/>
@@ -157,65 +157,15 @@
 <wire x1="2.54" y1="20.32" x2="2.54" y2="22.86" width="0.127" layer="21"/>
 <wire x1="2.54" y1="22.86" x2="0" y2="22.86" width="0.127" layer="21"/>
 <wire x1="22.86" y1="20.32" x2="25.4" y2="20.32" width="0.127" layer="21"/>
-<wire x1="25.4" y1="22.86" x2="25.4" y2="2.54" width="0.127" layer="20"/>
+<wire x1="25.654" y1="26.035" x2="25.654" y2="-0.254" width="0.127" layer="20"/>
 <wire x1="22.86" y1="22.86" x2="22.86" y2="20.32" width="0.127" layer="21"/>
 <wire x1="22.86" y1="20.32" x2="22.86" y2="2.54" width="0.127" layer="21"/>
 <wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.127" layer="21"/>
 <wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.127" layer="21"/>
 <wire x1="0" y1="20.32" x2="2.54" y2="20.32" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="22.86" y2="0" width="0.127" layer="20"/>
-<text x="3.81" y="20.955" size="1.27" layer="21">AN</text>
-<text x="3.6576" y="18.415" size="1.27" layer="21">RST</text>
-<text x="3.81" y="15.875" size="1.27" layer="21">CS</text>
-<text x="3.81" y="13.335" size="1.27" layer="21">SCK</text>
-<text x="3.81" y="10.795" size="1.27" layer="21">MISO</text>
-<text x="3.81" y="8.255" size="1.27" layer="21">MOSI</text>
-<text x="3.81" y="5.715" size="1.27" layer="21">+3V3</text>
-<text x="3.81" y="3.175" size="1.27" layer="21">GND</text>
-<text x="18.2118" y="3.175" size="1.27" layer="21">GND</text>
-<text x="18.3896" y="5.715" size="1.27" layer="21">+5V</text>
-<text x="18.4658" y="8.255" size="1.27" layer="21">SDA</text>
-<text x="18.796" y="10.795" size="1.27" layer="21">SCL</text>
-<text x="19.685" y="13.335" size="1.27" layer="21">TX</text>
-<text x="19.6342" y="15.875" size="1.27" layer="21">RX</text>
-<text x="18.8722" y="18.415" size="1.27" layer="21">INT</text>
-<text x="17.9324" y="20.828" size="1.27" layer="21">PWM</text>
-<wire x1="16.764" y1="23.1648" x2="15.748" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="15.748" y1="23.1648" x2="14.605" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="14.605" y1="23.1648" x2="13.462" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="13.462" y1="23.1648" x2="12.319" y2="23.1648" width="0.3048" layer="22"/>
-<wire x1="16.764" y1="23.1648" x2="16.764" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="14.605" y1="23.1648" x2="14.605" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="12.319" y1="23.1648" x2="12.319" y2="21.6408" width="0.3048" layer="22"/>
-<wire x1="15.748" y1="23.1648" x2="15.748" y2="24.8158" width="0.3048" layer="22"/>
-<wire x1="13.462" y1="23.1648" x2="13.462" y2="24.8158" width="0.3048" layer="22"/>
-<circle x="15.748" y="24.8158" radius="0.2286" width="0.508" layer="22"/>
-<circle x="16.764" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="14.605" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="12.319" y="21.6408" radius="0.2286" width="0.508" layer="22"/>
-<circle x="13.462" y="24.8158" radius="0.2286" width="0.508" layer="22"/>
-<text x="11.1252" y="21.4376" size="1.6764" layer="22" ratio="14" distance="30" rot="MR0">mikro
-BUS</text>
-<text x="5.9436" y="20.955" size="1.27" layer="22" rot="MR0">AN</text>
-<text x="6.8326" y="18.415" size="1.27" layer="22" rot="MR0">RST</text>
-<text x="5.842" y="15.9004" size="1.27" layer="22" rot="MR0">CS</text>
-<text x="6.9596" y="13.335" size="1.27" layer="22" rot="MR0">SCK</text>
-<text x="8.0772" y="10.8204" size="1.27" layer="22" rot="MR0">MISO</text>
-<text x="8.0518" y="8.255" size="1.27" layer="22" rot="MR0">MOSI</text>
-<text x="8.0264" y="5.7404" size="1.27" layer="22" rot="MR0">+3V3</text>
-<text x="7.366" y="3.175" size="1.27" layer="22" rot="MR0">GND</text>
-<text x="21.9202" y="3.175" size="1.27" layer="22" rot="MR0">GND</text>
-<text x="21.9202" y="5.715" size="1.27" layer="22" rot="MR0">+5V</text>
-<text x="21.9202" y="8.255" size="1.27" layer="22" rot="MR0">SDA</text>
-<text x="21.9202" y="10.795" size="1.27" layer="22" rot="MR0">SCL</text>
-<text x="21.9202" y="13.335" size="1.27" layer="22" rot="MR0">TX</text>
-<text x="21.8948" y="15.875" size="1.27" layer="22" rot="MR0">RX</text>
-<text x="21.8948" y="18.415" size="1.27" layer="22" rot="MR0">INT</text>
-<text x="21.8948" y="20.828" size="1.27" layer="22" rot="MR0">PWM</text>
-<wire x1="22.86" y1="0" x2="25.4" y2="2.54" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="26.035" width="0.127" layer="20"/>
-<wire x1="0" y1="26.035" x2="25.4" y2="26.035" width="0.127" layer="20"/>
-<wire x1="25.4" y1="26.035" x2="25.4" y2="22.86" width="0.127" layer="20"/>
+<wire x1="-0.254" y1="-0.254" x2="25.654" y2="-0.254" width="0.127" layer="20"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="26.035" width="0.127" layer="20"/>
+<wire x1="-0.254" y1="26.035" x2="25.654" y2="26.035" width="0.127" layer="20"/>
 </package>
 <package name="MIKROE_BUS_MIDI">
 <pad name="P$1" x="1.27" y="21.59" drill="0.889" diameter="1.6764" shape="square"/>
