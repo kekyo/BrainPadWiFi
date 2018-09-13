@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -9276,12 +9276,17 @@ Source: www.kingbright.com</description>
 <pinref part="IC1" gate="G$1" pin="IO0"/>
 <wire x1="101.6" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="106.68" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="88.9" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="88.9" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="88.9" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
 <junction x="104.14" y="106.68"/>
 <label x="15.24" y="88.9" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="5"/>
+<pinref part="U$1" gate="G$1" pin="AN"/>
+<wire x1="58.42" y1="88.9" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
+<junction x="58.42" y="88.9"/>
 </segment>
 </net>
 <net name="N$4" class="0">
